@@ -11,20 +11,8 @@ import com.utils.LoanFactory;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-/**
- * Class: Main
- * Entry point for the Bank of Kigali Loan Management System.
- * Uses LoanService for all business logic operations.
- *
- * Compile (from src/ folder):
- *   javac -d ../out $(find . -name "*.java")
- *
- * Run:
- *   java -cp ../out com.Main.Main
- *
- * Package: com.Main
- */
-public class Main {
+
+public class LoanSystem {
 
     private static final Scanner     sc          = new Scanner(System.in);
     private static final LoanService loanService = new LoanServiceImplementation();
